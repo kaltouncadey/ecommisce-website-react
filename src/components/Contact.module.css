@@ -1,0 +1,117 @@
+.text h1 {
+  color: #023e8a;
+  font-weight: bold;
+  font-size: 38px;
+  text-transform: capitalize;
+}
+
+.text {
+  margin-top: 7rem;
+  margin-left: 8rem;
+}
+
+.dhamntod {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  margin-top: 5em;
+  margin-right: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #023e8a;
+  font-weight: bold;
+}
+.text li {
+  font-size: 19px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+/* // forms // */
+
+.form {
+  margin-top: 120px;
+  text-align: center;
+  width: 560px;
+  transform: translateY(-80px);
+  padding: 30px;
+  height: 355px;
+}
+
+.phone {
+  text-decoration: underline;
+  color: #023e8a;
+}
+/* 
+.input{
+     width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    outline: none;
+    transition: all ease 0.9s;
+    text-transform: capitalize;
+} */
+
+.span {
+  color: black;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputes input {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+  border-bottom: 2px solid orange;
+  outline: none;
+  transition: all ease 0.9s;
+}
+
+.inputes :hover {
+  transform: scale(1.1);
+  border-bottom: 2px solid seagreen;
+  transition: all ease 0.9s;
+}
+
+.butons {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 250px;
+  padding: 10px;
+  border: 0;
+  background-color: #023e8a;
+  color: white;
+  font-size: 20px;
+  transition: all ease 0.9s;
+}
+
+.meessage span {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.butons:hover {
+  background-color: white;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width:940px)  {
+  .dhamntod{
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+
+
+  
+}

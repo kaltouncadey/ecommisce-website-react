@@ -1,0 +1,50 @@
+.guud {
+  align-items: center;
+  font-family: 'Poppins', sans-serif;      
+}
+
+.nav {
+      font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 24px;
+  background-color: #003049;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.lists {
+  padding: 0 20px;
+  color: white;
+}
+
+h2 span {
+  color: gray;
+}
+
+.logo {
+  font-size: 28px;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width:940px) {
+  .navs .list{
+    left: -200%;
+    background: rgba(0, 0, 0, 0.559);
+    width: 50%;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    transform: translateY(0px);
+    margin-left: 8rem;
+    row-gap:1rem ;
+  }
+  .list{
+    display: none;
+  }
+  
+  
+}
