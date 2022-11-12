@@ -1,0 +1,60 @@
+.allss {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#212d44, #a8a0a0);
+}
+.dhamaaan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: #212d44;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.dhamaaan h2 {
+  margin: 0 0 36px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.dhamaaan .userbox {
+  position: relative;
+}
+
+.userbox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.userbox label {
+  padding-left: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.dhamaaan .userbox input:focus ~ label,
+.dhamaaan .userbox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+.dhamaaan form a {
+  top: 1rem;
+}

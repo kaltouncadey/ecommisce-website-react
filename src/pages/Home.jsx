@@ -6,7 +6,7 @@ const Home = () => {
     <div className={style.guud}>
       <div className={style.qoralo}>
         <div className={style.head}>
-          <h1>hi I'm kaltoum adem </h1>{" "}
+          <h1>hi<span className={style.spens}> I'm </span> kaltoum adem </h1>{" "}
         </div>
         <div className={style.text}>
           I'm fullstack sofware and you learing in this <br /> college more lesson that

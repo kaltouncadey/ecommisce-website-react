@@ -1,0 +1,17 @@
+.alls {
+  display: flex;
+  /* margin:  0 1rem; */
+  margin-top: 1.5rem;
+}
+
+.sawir img {
+  width: 100px;
+  height: 90%;
+  /* border-radius: 2rem; */
+}
+
+.header {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
