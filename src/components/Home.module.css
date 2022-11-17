@@ -7,36 +7,39 @@
           display: flex;
           padding: 4rem;
           justify-content: space-between;
-       font-family: 'Poppins', sans-serif;
+          font-family: 'Poppins', sans-serif;
+          text-align: center; 
+          height: 70vh;
+          width: 100%;    
 }
-
+span{
+     color: blue;
+     font-weight: bold;
+     font-size: 54px;
+     
+}
 .qoralo{
           margin-top: 6rem;
           /* padding: 2rem; */
 }
-.head h1 {
-          
-          font-weight: 900;
-          font-weight: bolder;
-          font-size: 50px;
-          text-transform:capitalize;
-          
+.head {
+margin-top: -2rem;
 }
+
 .spens{
-     color: #457b9d;
+     color: #3d789e;
 }
 
 .sawir{
-          width: 60%;
-          height: 100%;
+
+          width: 100%;
+          height:80vh;
           position: relative;
-          left: 4rem;
+          left: 3rem;
 }
 .sawir img {
           width: 75%;
-          height: 20%;
-          margin-right: 5rem;
-          object-fit: cover;
+          height: 70%;   
 }
 .text{
           font-size: 20px;
@@ -49,27 +52,32 @@
 .btns button{
    
      padding: 0.8rem;
-     color:rgb(0, 0, 0);
+     color: #fff;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
      border-radius: 1rem;  
      margin-top: 1.5rem; 
      font-size: 20px;
-     border: 4px solid crimson;
+     background: crimson;
      cursor: pointer;
      transition: all .5s ease;
 }
 
 @media screen and (max-width:940px) {
 .guud{
+   
      display: flex;
      flex-direction: column-reverse;
+     margin-top: 24rem;
 }
 .sawir img {
           width: 100%;
-          height: 40vh;    
+          height: 100%;    
+          
+          
 }
 .qoralo{
      text-align: center;
      
 }
+
 }

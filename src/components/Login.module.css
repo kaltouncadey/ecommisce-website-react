@@ -58,3 +58,24 @@
 .dhamaaan form a {
   top: 1rem;
 }
+ .hh{
+  color: #fff;
+  padding: .5rem 1rem;
+  background: red;
+  border-radius: 5px;
+  transition: .5s ease;
+  cursor: pointer;
+  display: inline;
+}
+ .hh:hover{
+  background: rgb(113, 6, 29);
+  color: #fff;
+}
+
+
+@media screen and (max-width:940px) {
+  .dhamaaan{
+    margin-top: 7rem;
+  }
+  
+}

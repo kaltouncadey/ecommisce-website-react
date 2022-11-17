@@ -8,6 +8,7 @@ const Header = () => {
   const handleNav = () => setNav(!nav);
 
   return (
+    <>
     <div className="guud">
       <nav className="nav">
         <div className="logo">
@@ -15,21 +16,23 @@ const Header = () => {
             tiigsi <span>tecnology</span>
           </h2>
         </div>
-        <div className="menu1">
+      </nav>
+         <div className="hello">
+
           <ul className={nav ? "nav-menu active" : "nav-menu"}>
-            <li className="list">
-              <Link to={"/"} className="menu1">
-                Home
-              </Link><Link to={"/Service"} > Service </Link>
-              <Link to={"/Contact"}>Contact  </Link>
-              <Link to={"/Shoping"} > Courses</Link>
-              <Link to={"/Login"}>Logi </Link>
-            </li>
+          <li><Link to={"/"} className="menu1">Home</Link></li>
+          <li><Link to={"/Service"}className="menu1" > Service </Link>  </li>
+          <li><Link to={"/Contact"} className="menu1">Contact  </Link></li> 
+          <li><Link to={"/Shoping"}className="menu1" > Courses</Link></li>
+          <li><Link to={"/Login"} className="menu1">Logi </Link></li>
+             
+            
           </ul>
           <i className=" fa fa-bars bars" onClick={handleNav}></i>
-        </div>
-      </nav>
+      
+         </div>
     </div>
+    </>
   );
 };
 
