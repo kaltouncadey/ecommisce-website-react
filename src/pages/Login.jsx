@@ -16,12 +16,12 @@ const Login = () => {
             <label>enter your last-name</label>
             <input type="text" placeholder="last name " required />
           </div>
-          <a href="#">
+          <a href="#" className="">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            submit
+            <li className={style.hh}>Submit</li>
           </a>
         </form>
       </div>
